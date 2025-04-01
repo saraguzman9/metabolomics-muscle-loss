@@ -1,0 +1,99 @@
+---
+title: "metadades_descripció"
+author: "Sara Guzmán Mairén"
+date: "2025-04-01"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Descripció de les Metadades
+
+Aquest document conté una breu descripció de les metadades relacionades amb el conjunt de dades de l'estudi sobre la pèrdua muscular (caquèxia). Es descriuen els metabòlits mesurats en dues condicions diferents: **cachexic** i **control**. Els metabòlits associats a aquestes condicions es relacionen amb diverses vies metabòliques implicades en la salut muscular.
+
+## Metadades
+
+Les metadades inclouen una llista de metabòlits associats als grups **cachexic** i **control**, amb la seva associació a cadascun dels grups. Els metabòlits estan relacionats amb aminoàcids, àcids orgànics i altres compostos involucrats en el metabolisme.
+
+| Metabolit                          | Grup      |
+|-------------------------------------|-----------|
+| X1.6.Anhydro.beta.D.glucose         | cachexic  |
+| X1.Methylnicotinamide               | cachexic  |
+| X2.Aminobutyrate                    | cachexic  |
+| X2.Hydroxyisobutyrate               | cachexic  |
+| X2.Oxoglutarate                     | cachexic  |
+| X3.Aminoisobutyrate                 | cachexic  |
+| X3.Hydroxybutyrate                  | cachexic  |
+| X3.Hydroxyisovalerate               | cachexic  |
+| X3.Indoxylsulfate                   | cachexic  |
+| X4.Hydroxyphenylacetate             | cachexic  |
+| Acetate                             | cachexic  |
+| Acetone                             | cachexic  |
+| Adipate                             | cachexic  |
+| Alanine                             | cachexic  |
+| Asparagine                          | cachexic  |
+| Betaine                             | cachexic  |
+| Carnitine                           | cachexic  |
+| Citrate                             | cachexic  |
+| Creatine                            | cachexic  |
+| Creatinine                          | cachexic  |
+| Dimethylamine                       | cachexic  |
+| Ethanolamine                        | cachexic  |
+| Formate                             | cachexic  |
+| Fucose                              | cachexic  |
+| Fumarate                            | cachexic  |
+| Glucose                             | cachexic  |
+| Glutamine                           | cachexic  |
+| Glycine                             | cachexic  |
+| Glycolate                           | cachexic  |
+| Guanidoacetate                      | cachexic  |
+| Hippurate                           | cachexic  |
+| Histidine                           | cachexic  |
+| Hypoxanthine                        | cachexic  |
+| Isoleucine                          | cachexic  |
+| Lactate                             | cachexic  |
+| Leucine                             | cachexic  |
+| Lysine                              | cachexic  |
+| Methylamine                         | cachexic  |
+| Methylguanidine                     | cachexic  |
+| N.N.Dimethylglycine                 | cachexic  |
+| O.Acetylcarnitine                   | cachexic  |
+| Pantothenate                        | cachexic  |
+| Pyroglutamate                       | cachexic  |
+| Pyruvate                            | cachexic  |
+| Quinolinate                         | cachexic  |
+| Serine                              | cachexic  |
+| Succinate                           | cachexic  |
+| Sucrose                             | control   |
+| Tartrate                            | control   |
+| Taurine                             | control   |
+| Threonine                           | control   |
+| Trigonelline                        | control   |
+| Trimethylamine.N.oxide              | control   |
+| Tryptophan                          | control   |
+| Tyrosine                            | control   |
+| Uracil                              | control   |
+| Valine                              | control   |
+| Xylose                              | control   |
+| cis.Aconitate                       | control   |
+| myo.Inositol                        | control   |
+| trans.Aconitate                     | control   |
+| pi.Methylhistidine                  | control   |
+| tau.Methylhistidine                 | control   |
+
+---
+
+## Descripció dels Grups
+
+### Cachexic
+
+El grup **cachexic** inclou mostres que provenen de subjectes amb pèrdua de massa muscular, possiblement associada a malalties cròniques com el càncer, la insuficiència renal crònica, o altres trastorns degeneratius. Els metabòlits d'aquest grup poden reflectir canvis metabòlics relacionats amb la desnutrició i el catabolisme accelerat.
+
+### Control
+
+El grup **control** inclou mostres que provenen de subjectes sans o sense alteracions patològiques significatives, i serveix com a base per comparar els efectes dels trastorns relacionats amb la pèrdua muscular. Els metabòlits d'aquest grup són indicatius de l'estat fisiològic normal.
+
+---
+
